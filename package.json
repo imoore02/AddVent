@@ -1,0 +1,19 @@
+{
+	"name": "AddVent",  
+	"version": "1.0.0",  
+	"description": "Allows quick addition of events to Google Calendar from any webpage.",  
+	"scripts": {
+	  "start": "parcel watch content.js",  
+	  "build": "parcel build content.js --out-dir dist"
+	},
+	"author": "I Moore",  
+	"license": "MIT",  
+	"devDependencies": {
+	  "parcel": "^2.9.0",  
+	  "chrono-node": "^2.4.5"
+	},  
+	"dependencies": {},
+	"browserslist": [
+	  "last 2 Chrome versions"
+	]
+  }  
